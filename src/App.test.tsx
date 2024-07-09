@@ -4,7 +4,7 @@ import App from "./App";
 
 test("renders project name", () => {
   render(<App />);
-  const linkElement = screen.getByText(/project/i);
+  const linkElement = screen.getByText(/resume builder/i);
 
   expect(linkElement).toBeInTheDocument();
 });
