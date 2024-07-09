@@ -3,6 +3,7 @@ import {
   Navigate,
   Route,
   createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
 } from "react-router-dom";
 import {
@@ -30,7 +31,7 @@ import CvEditEducation from "./features/cv/cv_education/CvEditEducation";
 import CvEditSkills from "./features/cv/cv_skills/CvEditSkills";
 import CvEditProjects from "./features/cv/cv_projects/CvEditProjects";
 
-const appRouter = createBrowserRouter(
+const appRouter = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Navbar />}>
       <Route path={about} element={<About />} />
