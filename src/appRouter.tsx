@@ -2,7 +2,6 @@ import Navbar from "./features/nav/Navbar";
 import {
   Navigate,
   Route,
-  createBrowserRouter,
   createHashRouter,
   createRoutesFromElements,
 } from "react-router-dom";
