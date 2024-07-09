@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/ui_layout/static/css/main.0049440c.css",
-    "main.js": "/ui_layout/static/js/main.dd75a74d.js",
-    "static/js/453.4c7e6823.chunk.js": "/ui_layout/static/js/453.4c7e6823.chunk.js",
-    "index.html": "/ui_layout/index.html",
-    "main.0049440c.css.map": "/ui_layout/static/css/main.0049440c.css.map",
-    "main.dd75a74d.js.map": "/ui_layout/static/js/main.dd75a74d.js.map",
-    "453.4c7e6823.chunk.js.map": "/ui_layout/static/js/453.4c7e6823.chunk.js.map"
+    "main.css": "/cv_buildr/static/css/main.8e929150.css",
+    "main.js": "/cv_buildr/static/js/main.759fc2a7.js",
+    "static/js/453.9eb654b0.chunk.js": "/cv_buildr/static/js/453.9eb654b0.chunk.js",
+    "static/media/phone_number.svg": "/cv_buildr/static/media/phone_number.6a64cf1d8c5e15b834b9e778ef6b110a.svg",
+    "static/media/job_icon.svg": "/cv_buildr/static/media/job_icon.87a16536fc862a18af717b70092aa155.svg",
+    "index.html": "/cv_buildr/index.html",
+    "static/media/email.svg": "/cv_buildr/static/media/email.2e0cfb211a58a7c3a0d2cd208a32698b.svg",
+    "static/media/date.svg": "/cv_buildr/static/media/date.6acc1b35d19f41a063221351cd87301b.svg",
+    "static/media/username_logo.svg": "/cv_buildr/static/media/username_logo.d64c0eb5c50826306fe9dda67555ee1b.svg",
+    "main.8e929150.css.map": "/cv_buildr/static/css/main.8e929150.css.map",
+    "main.759fc2a7.js.map": "/cv_buildr/static/js/main.759fc2a7.js.map",
+    "453.9eb654b0.chunk.js.map": "/cv_buildr/static/js/453.9eb654b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0049440c.css",
-    "static/js/main.dd75a74d.js"
+    "static/css/main.8e929150.css",
+    "static/js/main.759fc2a7.js"
   ]
 }
