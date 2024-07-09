@@ -26,6 +26,14 @@ const Navbar = () => {
         </div>
         <div className="navbar-center">
           <Link to="/homepage" className="btn btn-ghost text-xl text-zinc-700">
+            <img
+              src={process.env.PUBLIC_URL + "/cv_logo.png"}
+              loading="lazy"
+              alt="Resume "
+              title="Resume "
+              width="64"
+              height="54"
+            ></img>
             Resume Builder
           </Link>
         </div>
