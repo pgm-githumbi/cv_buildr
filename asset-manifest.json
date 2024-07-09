@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv_buildr/static/css/main.8e929150.css",
-    "main.js": "/cv_buildr/static/js/main.5525e758.js",
+    "main.css": "/cv_buildr/static/css/main.2ce53d76.css",
+    "main.js": "/cv_buildr/static/js/main.3907d433.js",
     "static/js/453.9eb654b0.chunk.js": "/cv_buildr/static/js/453.9eb654b0.chunk.js",
     "static/media/phone_number.svg": "/cv_buildr/static/media/phone_number.6a64cf1d8c5e15b834b9e778ef6b110a.svg",
     "static/media/job_icon.svg": "/cv_buildr/static/media/job_icon.87a16536fc862a18af717b70092aa155.svg",
@@ -9,12 +9,12 @@
     "static/media/email.svg": "/cv_buildr/static/media/email.2e0cfb211a58a7c3a0d2cd208a32698b.svg",
     "static/media/date.svg": "/cv_buildr/static/media/date.6acc1b35d19f41a063221351cd87301b.svg",
     "static/media/username_logo.svg": "/cv_buildr/static/media/username_logo.d64c0eb5c50826306fe9dda67555ee1b.svg",
-    "main.8e929150.css.map": "/cv_buildr/static/css/main.8e929150.css.map",
-    "main.5525e758.js.map": "/cv_buildr/static/js/main.5525e758.js.map",
+    "main.2ce53d76.css.map": "/cv_buildr/static/css/main.2ce53d76.css.map",
+    "main.3907d433.js.map": "/cv_buildr/static/js/main.3907d433.js.map",
     "453.9eb654b0.chunk.js.map": "/cv_buildr/static/js/453.9eb654b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e929150.css",
-    "static/js/main.5525e758.js"
+    "static/css/main.2ce53d76.css",
+    "static/js/main.3907d433.js"
   ]
 }
