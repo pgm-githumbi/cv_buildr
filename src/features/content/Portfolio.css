@@ -1,11 +1,6 @@
 /*! CSS Used from: https://app.resumebuilder.com/assets/css/style_for_print.css ; media=print */
 @media print {
   @media print {
-    .no-print-border {
-      border-width: 0px !important;
-      border-color: transparent !important;
-      max-height: none !important;
-    }
     .scaling-area {
       transform-origin: 0 0 !important;
       zoom: 1.24 !important;
@@ -29,7 +24,9 @@ p,
 a,
 abbr,
 em,
-i {
+i,
+ul,
+li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -38,25 +35,14 @@ i {
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
 }
+ul {
+  list-style: none;
+}
 /*! CSS Used from: Embedded */
 .app-editor.app-traditional .scaling-area {
   transform: scale(1, 1);
   transform-origin: center top;
   margin: 0 auto;
-}
-.app-editor.app-traditional .right__fullscreen #resume-download .scaling-area {
-  transform: scale(1);
-  transform-origin: 0 0;
-}
-.app-editor.app-traditional
-  .app-right-panel
-  .page-area
-  .resume-preview
-  #rightEditor
-  #resume-download {
-  max-height: 815px;
-  min-height: 815px;
-  height: 100%;
 }
 .app-editor.app-traditional .app-right-panel .page-area .resume-preview a {
   pointer-events: none;
@@ -66,105 +52,6 @@ i {
   pointer-events: none;
   cursor: default;
 }
-.app-right-panel .page-area #resume-download {
-  max-height: 630px;
-  overflow: hidden;
-  box-shadow: 0px 0px 7.41692px rgba(0, 0, 0, 0.15);
-  overflow-y: auto;
-  min-height: 64vh;
-}
-.app-right-panel .page-area #resume-download::-webkit-scrollbar {
-  width: 0px;
-  border-left: solid 1px #b0bbd1;
-  background: #fff;
-}
-.app-right-panel .page-area #resume-download::-webkit-scrollbar-thumb {
-  background-color: #0091ff;
-}
-@media screen and (max-width: 769px) {
-  .app-right-panel .page-area #resume-download {
-    display: none;
-  }
-}
-.right__fullscreen #resume-download {
-  height: 85vh !important;
-  position: absolute;
-  width: 1085px;
-  left: 50%;
-  background: #fff;
-  transform: translateX(-50%);
-  margin-top: 7vh;
-  max-height: inherit !important;
-  min-height: auto !important;
-  padding-top: 30px;
-}
-@media (min-width: 2401px) {
-  .right__fullscreen #resume-download .scaling-area {
-    transform: scale(1.6) !important;
-    transform-origin: center top !important;
-  }
-}
-@media (max-width: 2400px) {
-  .right__fullscreen #resume-download .scaling-area {
-    transform: scale(1.6) !important;
-    transform-origin: center top !important;
-    margin: 0 auto !important;
-  }
-}
-@media (max-width: 1250px) {
-  .right__fullscreen #resume-download .scaling-area {
-    transform: scale(1.23) !important;
-    transform-origin: center top !important;
-  }
-}
-@media (max-width: 980px) {
-  .right__fullscreen #resume-download .scaling-area {
-    transform: scale(1.07) !important;
-    transform-origin: center top !important;
-  }
-}
-@media screen and (max-width: 769px) {
-  .right__fullscreen #resume-download .scaling-area {
-    transform-origin: 0 0 !important;
-  }
-}
-@media (max-width: 1250px) {
-  .right__fullscreen #resume-download {
-    width: 840px;
-  }
-}
-@media screen and (max-width: 980px) {
-  .right__fullscreen #resume-download {
-    width: 740px;
-  }
-}
-@media screen and (max-width: 769px) {
-  .right__fullscreen #resume-download {
-    display: block !important;
-    overflow-y: auto !important;
-    -webkit-text-size-adjust: 100%;
-    left: 50%;
-    height: 90vh !important;
-    transform: translate(-50%, 0) !important;
-    top: 0;
-    max-width: 400px;
-    padding-top: 0;
-  }
-  .right__fullscreen #resume-download .scaling-area {
-    transform: scale(0.63) !important;
-  }
-}
-@media all and (max-width: 400px) {
-  .right__fullscreen #resume-download {
-    -webkit-text-size-adjust: 100%;
-    top: 0;
-    height: 100%;
-    max-width: 350px;
-  }
-  .right__fullscreen #resume-download .scaling-area {
-    transform: scale(0.55) !important;
-  }
-}
 /*! CSS Used from: Embedded */
 .ff-times-regular {
   font-family: Times, serif;
@@ -248,129 +135,6 @@ i {
   font-weight: bold;
 }
 /*! CSS Used from: Embedded */
-.ff-times-regular {
-  font-family: Times, serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular i,
-.ff-calibri-regular em {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: italic;
-}
-.ff-calibri-bold {
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
-/*! CSS Used from: Embedded */
-.ff-times-regular {
-  font-family: Times, serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular i,
-.ff-calibri-regular em {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: italic;
-}
-.ff-calibri-bold {
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
-.ff-times-regular {
-  font-family: Times, serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular i,
-.ff-calibri-regular em {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: italic;
-}
-.ff-calibri-bold {
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
-/*! CSS Used from: Embedded */
-.ff-times-regular {
-  font-family: Times, serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular i,
-.ff-calibri-regular em {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: italic;
-}
-.ff-calibri-bold {
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
-.ff-times-regular {
-  font-family: Times, serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular i,
-.ff-calibri-regular em {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: italic;
-}
-.ff-calibri-bold {
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
-/*! CSS Used from: Embedded */
-.ff-times-regular {
-  font-family: Times, serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-.ff-calibri-regular i,
-.ff-calibri-regular em {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  font-style: italic;
-}
-.ff-calibri-bold {
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
 .ff-times-regular {
   font-family: Times, serif;
   font-weight: normal;
@@ -544,10 +308,32 @@ i {
 .t13 .edu-block .add-bot-mgn:last-child {
   margin-bottom: 0;
 }
-.t13 .edu-block .add-des-bottom-mgn p {
+.t13 .edu-block .add-des-bottom-mgn ul {
   margin-bottom: 6px;
+  list-style-type: none;
+  list-style: none;
 }
-.t13 .edu-block .add-des-bottom-mgn p:last-child {
+.t13 .edu-block .add-des-bottom-mgn ul:last-child {
+  margin-bottom: 0;
+}
+.t13 .edu-block .add-des-bottom-mgn ul li {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 16px;
+  list-style-type: none;
+  list-style: none;
+}
+.t13 .edu-block .add-des-bottom-mgn ul li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  background: #e9932f;
+  border-radius: 100px;
+  top: 5px;
+}
+.t13 .edu-block .add-des-bottom-mgn ul li:last-child {
   margin-bottom: 0;
 }
 .t13 .prof-experience {
@@ -619,10 +405,31 @@ i {
 .t13 .prof-experience .add-bot-mgn:last-child {
   margin-bottom: 0;
 }
-.t13 .prof-experience .add-des-bottom-mgn p {
+.t13 .prof-experience .add-des-bottom-mgn ul {
   margin-bottom: 6px;
+  list-style-type: none;
+  list-style: none;
 }
-.t13 .prof-experience .add-des-bottom-mgn p:last-child {
+.t13 .prof-experience .add-des-bottom-mgn ul:last-child {
+  margin-bottom: 0;
+}
+.t13 .prof-experience .add-des-bottom-mgn ul li {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 16px;
+  list-style: none;
+}
+.t13 .prof-experience .add-des-bottom-mgn ul li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  background: #e9932f;
+  border-radius: 100px;
+  top: 5px;
+}
+.t13 .prof-experience .add-des-bottom-mgn ul li:last-child {
   margin-bottom: 0;
 }
 .t13 .skills-block {
@@ -769,6 +576,9 @@ i {
 .t13.color-variant-twelve h2::after {
   background-color: #e9932f;
 }
+.t13.color-variant-twelve ul li::before {
+  background: #e9932f;
+}
 .t13.color-variant-twelve .skills-block .two-col-skills .skill .skill-bar {
   border-color: #e9932f;
 }
@@ -820,6 +630,170 @@ i {
   font-weight: bold;
 }
 /*! CSS Used from: Embedded */
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+/*! CSS Used from: Embedded */
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+/*! CSS Used from: Embedded */
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+/*! CSS Used from: Embedded */
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+/*! CSS Used from: Embedded */
+.ff-times-regular {
+  font-family: Times, serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.ff-calibri-regular i,
+.ff-calibri-regular em {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.ff-calibri-bold {
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
 .ff-times-regular {
   font-family: Times, serif;
   font-weight: normal;

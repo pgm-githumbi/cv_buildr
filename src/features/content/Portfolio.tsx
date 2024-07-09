@@ -1,6 +1,6 @@
 const Portfolio = () => {
   return (
-    <div>
+    <div className="scaling-area t13 ff-calibri-regular color-variant-twelve">
       <div className="header-part">
         <div className="header-part-inner">
           <div className="name-with-profession">
