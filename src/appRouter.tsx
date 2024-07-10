@@ -46,6 +46,8 @@ const appRouter = createHashRouter(
             {
               title: "Create your resume's header",
               nextRoute: cvEditSummary,
+              icon_src: process.env.PUBLIC_URL + "/cv_header.png",
+              icon_alt: "header",
             } as IRouteHandle
           }
         />
@@ -66,6 +68,8 @@ const appRouter = createHashRouter(
             {
               title: "Provide your industry experience",
               nextRoute: cvEditEducation,
+              icon_src: process.env.PUBLIC_URL + "/cv_industry.png",
+              icon_alt: "experience",
             } as IRouteHandle
           }
         />
@@ -76,6 +80,8 @@ const appRouter = createHashRouter(
             {
               title: "Enter your educational background",
               nextRoute: cvEditKeySkills,
+              icon_src: process.env.PUBLIC_URL + "/cv_education.png",
+              icon_alt: "education",
             } as IRouteHandle
           }
         />
@@ -86,6 +92,8 @@ const appRouter = createHashRouter(
             {
               title: "List your technical and non-technical skills",
               nextRoute: cvEditProjects,
+              icon_src: process.env.PUBLIC_URL + "/cv_skills.png",
+              icon_alt: "skills",
             } as IRouteHandle
           }
         />
@@ -96,6 +104,8 @@ const appRouter = createHashRouter(
             {
               title: "Show your personal projects",
               nextRoute: cvEditProjects,
+              icon_src: process.env.PUBLIC_URL + "/cv_projects.png",
+              icon_alt: "personal projects",
             } as IRouteHandle
           }
         />

@@ -9,5 +9,5 @@ module.exports = {
     require("daisyui"),
     // require("flowbite/plugin"),
   ],
-  daisyui: { themes: ["winter"] },
+  daisyui: { themes: ["night", "forest", "synthwave"] },
 };

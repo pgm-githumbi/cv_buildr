@@ -7,7 +7,7 @@ import { about, cv, portfolio } from "../../routePaths";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-300 hover:bg-gradient-to-r from-base-300 via-sky-950 to-indigo-950 sticky top-0 z-40">
         <div className="navbar-start">
           <Dropdown>
             {/* <li>
@@ -25,7 +25,7 @@ const Navbar = () => {
           </Dropdown>
         </div>
         <div className="navbar-center">
-          <Link to="/homepage" className="btn btn-ghost text-xl text-zinc-700">
+          <Link to="/homepage" className="btn btn-ghost text-xl ">
             <img
               src={process.env.PUBLIC_URL + "/cv_logo.png"}
               loading="lazy"
